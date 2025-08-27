@@ -1,0 +1,102 @@
+{
+  "report_metadata": {
+    "title": "Autodesk Beacon Monthly Report",
+    "month": "July 2025",
+    "company_logo": "AUTODESK"
+  },
+  "header_styling": {
+    "background_color": "#000000",
+    "text_color": "#ffd700",
+    "logo_background": "rgba(255, 215, 0, 0.2)",
+    "logo_border": "#ffd700"
+  },
+  "metrics": {
+    "views": {
+      "value": "55K",
+      "change_percentage": "23.0%",
+      "description": "Beacon views have increased 17.0% with a total of 55000 views"
+    },
+    "returning_users": {
+      "value": "1,302",
+      "change_percentage": "26.3%",
+      "description": "Beacon's returning users have increased 30.3% with a total of 1302"
+    },
+    "catalog_items": {
+      "value": "3,193",
+      "change_percentage": "23%",
+      "description": "No new software entities were onboarded in the last month"
+    }
+  },
+  "user_quote": {
+    "content": "I loved the ability to Manage the dependencies of services using Cursor and Playwright MCP",
+    "author": "Baiju Mathew",
+    "title": "Senior Technical Program Manager, PSET-PBE-APMO",
+    "initials": "BM"
+  },
+  "division_chart": {
+    "title": "Top Represented Divisions in the Catalog",
+    "divisions": [
+      {
+        "name": "PSET",
+        "percentage": 20,
+        "color": "#f44336",
+        "gradient_start": "#e53935",
+        "gradient_end": "#f44336"
+      },
+      {
+        "name": "AEC",
+        "percentage": 35,
+        "color": "#ff9800",
+        "gradient_start": "#f57f17",
+        "gradient_end": "#ff9800"
+      },
+      {
+        "name": "EMS",
+        "percentage": 15,
+        "color": "#03a9f4",
+        "gradient_start": "#0288d1",
+        "gradient_end": "#03a9f4"
+      },
+      {
+        "name": "PDMS",
+        "percentage": 7,
+        "color": "#3f51b5",
+        "gradient_start": "#303f9f",
+        "gradient_end": "#3f51b5"
+      },
+      {
+        "name": "Incubation",
+        "percentage": 23,
+        "color": "#9c27b0",
+        "gradient_start": "#7b1fa2",
+        "gradient_end": "#9c27b0"
+      }
+    ]
+  },
+  "highlights": {
+    "title": "Highlights",
+    "items": [
+      "New Beacon Template available to build \"CloudOS Deployable\" MCP Servers built with the MCP-Commons reference Resource server and protected by APS Identity in conjunction with our ApigeeX offering for authentication",
+      "Improved User Experience implemented in \"Observability\" tab for service entities, now called \"Monitor\" with sub-tab sections including the two inner-sourced tabs: Synthetics and Dynatrace.",
+      "More efficient and automated process to share Beacon secrets with our inner-source collaborators."
+    ]
+  },
+  "up_next": {
+    "title": "Up Next",
+    "items": [
+      "Marvelous team will be translating your Backstage System Model entities to the new Autodesk System Model. Next, we will be notifying users for your review.",
+      "Availability plugin is being inner-sourced to Beacon and soon will be ready on Production.",
+      "Beacon will be enabled to display the new Runbook v2 (Markdown) files on systems entities to reduce fragmented documentation."
+    ]
+  },
+  "footer": {
+    "text": "Beacon is your one-stop developer portal at Autodesk. The user-friendly platform is created with the goal to boost your productivity, providing you with all the necessary information and workflows."
+  },
+  "styling": {
+    "container_max_width": "1800px",
+    "main_content_gap": "40px",
+    "metrics_grid_gap": "25px",
+    "quotes_chart_gap": "25px",
+    "responsive_breakpoint": "1400px"
+  }
+}
