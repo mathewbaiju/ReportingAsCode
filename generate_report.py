@@ -216,16 +216,16 @@ def generate_html_report(config):
         
         /* User Quotes Section */
         .quotes-section {{
-            background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%);
+            background: white;
             border-radius: 15px;
             padding: 25px;
-            border: 1px solid #ffcc02;
+            border: 1px solid #e1e8ed;
         }}
         
         .quotes-title {{
             font-size: 18px;
             font-weight: 600;
-            color: #e65100;
+            color: #333;
             margin-bottom: 20px;
             display: flex;
             align-items: center;
