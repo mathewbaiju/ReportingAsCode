@@ -1,8 +1,8 @@
 {
     "report_metadata": {
-        "title": "CloudOS Observability Monthly Report",
-        "month": "January 2026",
-        "company_logo": "CLOUDOS OBSERVABILITY"
+        "title": "Autodesk Beacon Monthly Report",
+        "month": "February 2026",
+        "company_logo": "AUTODESK"
     },
     "header_styling": {
         "background_color": "#000000",
@@ -14,12 +14,12 @@
         "views": {
             "value": "58K",
             "change_percentage": "12.0%",
-            "description": "Beacon views have increased 17.0% with a total of 55000 views"
+            "description": "Beacon views have increased 18.0% with a total of 56000 views"
         },
         "returning_users": {
             "value": "899",
-            "change_percentage": "26.7%",
-            "description": "Beacon's returning users have increased 30.3% with a total of 1302"
+            "change_percentage": "27.1%",
+            "description": "Beacon's returning users have increased 30.7% with a total of 1302"
         },
         "catalog_items": {
             "value": "3,456",
@@ -38,31 +38,31 @@
         "divisions": [
             {
                 "name": "PSET",
-                "percentage": 20,
+                "percentage": 25,
                 "color": "#f44336",
                 "gradient_start": "#e53935",
                 "gradient_end": "#f44336"
             },
             {
                 "name": "AEC",
-                "percentage": 35,
+                "percentage": 30,
                 "color": "#ff9800",
                 "gradient_start": "#f57f17",
                 "gradient_end": "#ff9800"
             },
             {
                 "name": "EMS",
-                "percentage": 15,
-                "color": "#03a9f4",
-                "gradient_start": "#0288d1",
-                "gradient_end": "#03a9f4"
+                "percentage": 17,
+                "color": "#9e9e9e",
+                "gradient_start": "#757575",
+                "gradient_end": "#9e9e9e"
             },
             {
                 "name": "PDMS",
-                "percentage": 7,
-                "color": "#3f51b5",
-                "gradient_start": "#303f9f",
-                "gradient_end": "#3f51b5"
+                "percentage": 5,
+                "color": "#ffeb3b",
+                "gradient_start": "#fdd835",
+                "gradient_end": "#ffeb3b"
             },
             {
                 "name": "Incubation",

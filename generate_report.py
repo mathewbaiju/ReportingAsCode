@@ -181,15 +181,15 @@ def generate_html_report(config):
         .change-arrow {{
             width: 0;
             height: 0;
-            border-left: 6px solid transparent;
-            border-right: 6px solid transparent;
-            border-bottom: 8px solid #4caf50;
+            border-left: 8px solid transparent;
+            border-right: 8px solid transparent;
+            border-bottom: 12px solid #4caf50;
         }}
         
         .change-text {{
-            font-size: 14px;
+            font-size: 16px;
             color: #4caf50;
-            font-weight: 600;
+            font-weight: 700;
         }}
         
         .no-change {{
@@ -207,7 +207,7 @@ def generate_html_report(config):
             line-height: 1.4;
         }}
         
-        /* User Quotes and Chart Container - Side by Side */
+        /* Chart and User Quotes Container - Side by Side */
         .quotes-chart-container {{
             display: grid;
             grid-template-columns: 1.5fr 1fr;
@@ -506,32 +506,18 @@ def generate_html_report(config):
                             <div class="metric-title">Items in Catalog</div>
                         </div>
                         <div class="metric-value">{config['metrics']['catalog_items']['value']}</div>
-                        <div class="no-change">{config['metrics']['catalog_items']['change_percentage']}</div>
+                        <div class="metric-change">
+                            <div class="change-arrow"></div>
+                            <div class="change-text">{config['metrics']['catalog_items']['change_percentage']}</div>
+                        </div>
                         <div class="metric-description">
                             {config['metrics']['catalog_items']['description']}
                         </div>
                     </div>
                 </div>
                 
-                <!-- User Quotes and Chart Section - Side by Side -->
+                <!-- Chart and User Quotes Section - Side by Side -->
                 <div class="quotes-chart-container">
-                    <!-- User Quotes Section -->
-                    <div class="quotes-section">
-                        <div class="quotes-title">
-                            💬 User Quotes
-                        </div>
-                        <div class="quote-content">
-                            "{config['user_quote']['content']}"
-                        </div>
-                        <div class="quote-attribution">
-                            <div class="profile-pic">{config['user_quote']['initials']}</div>
-                            <div class="attribution-text">
-                                <strong>{config['user_quote']['author']}</strong><br>
-                                {config['user_quote']['title']}
-                            </div>
-                        </div>
-                    </div>
-                    
                     <!-- Chart Section -->
                     <div class="chart-section">
                         <div class="chart-title">
@@ -576,6 +562,23 @@ def generate_html_report(config):
 """
 
     html_content += f"""                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- User Quotes Section -->
+                    <div class="quotes-section">
+                        <div class="quotes-title">
+                            💬 User Quotes
+                        </div>
+                        <div class="quote-content">
+                            "{config['user_quote']['content']}"
+                        </div>
+                        <div class="quote-attribution">
+                            <div class="profile-pic">{config['user_quote']['initials']}</div>
+                            <div class="attribution-text">
+                                <strong>{config['user_quote']['author']}</strong><br>
+                                {config['user_quote']['title']}
+                            </div>
                         </div>
                     </div>
                 </div>
